@@ -1,5 +1,8 @@
 # execute
 
 ```
-docker exec -it cd78eb089f89 mongosh -u root -p root
+docker-compose up -d
+```
+```
+docker exec -it <replace with container name or container id> mongosh -u root -p root
 ```
